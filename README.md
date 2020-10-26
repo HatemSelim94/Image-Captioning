@@ -16,11 +16,11 @@ A pretrained resnet network is used to capture the image features. The final lay
 LSTM together with linear layers are responsible for generating a sequence of words that describes the image.
 
 
-| - | Layer     | I/O             | Pretrained |
-|---|-----------|-----------------|------------|
-| 1 | Embedding | (1)/(1,256)     | 0          |
-| 2 | LSTM      | (1,256)/(1,512) | 0          |
-| 3 | Linear    | (1,512)/(9955)  | 0          |
+  | - | Layer     | I/O             | Pretrained |
+  |---|-----------|-----------------|------------|
+  | 1 | Embedding | (1)/(1,256)     | 0          |
+  | 2 | LSTM      | (1,256)/(1,512) | 0          |
+  | 3 | Linear    | (1,512)/(9955)  | 0          |
 
 
 
