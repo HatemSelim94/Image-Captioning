@@ -79,3 +79,8 @@ LSTM together with linear layers are responsible for generating a sequence of wo
 5.
 
 <img src="./images/test5.PNG" alt="drawing" width="400"/>
+
+
+#### Note:
+
+This project is one of three projects accomplished in the Udacity computer vision Nanodegree program.
